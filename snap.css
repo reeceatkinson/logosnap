@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #eee;
+  font-size: 14px;
+}
+body p {
+  font-size: 2em;
+}
+.context {
+  font-size: 1.1em;
+  position: absolute;
+  width: 200px;
+  height: auto;
+  padding: 10px;
+  border-radius: 6.5px;
+  top: 10;
+  left: 10;
+  background-color: #fff;
+  box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24);
+  color: #333;
+}
+.context .context_item {
+  height: 32px;
+  line-height: 32px;
+  cursor: pointer;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.context .context_item:hover {
+  background-color: rgb(235, 234, 234);
+  border-radius: 6.5px;
+}
+.context .context_item .inner_item {
+  margin: 0px 10px;
+}
+.context .context_item .inner_item i {
+  margin: 0 5px 0 0;
+  font-weight: bold;
+}
+.context .context_hr {
+  height: 1px;
+  border-top: 1px solid #bbb;
+  margin: 3px 10px;
+}
+
+#credit {
+    font-size: 11px;
+    color: lightgrey;
+    padding-left: 10px;
+}
