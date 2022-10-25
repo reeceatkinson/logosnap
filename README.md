@@ -25,8 +25,6 @@ All you have to do to get started is go to the Issues or Pull Requests tab to ge
 
 If you need anything mention @reeceatkinson
     
-# From Hacktoberfest? 🎃
-Great! Feel free to take a look round or dive straight into Issues and Pull Requests, we are ready for your submission.
 
 # Found a bug 🐛
 
